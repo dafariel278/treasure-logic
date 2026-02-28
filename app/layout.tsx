@@ -1,3 +1,5 @@
+import React from "react";
+
 export const metadata = {
   title: "Treasure Logic",
   description: "Strategic intelligence powered by Treasure David."
@@ -5,8 +7,6 @@ export const metadata = {
 
 export default function RootLayout({
   children
-}: {
-  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
